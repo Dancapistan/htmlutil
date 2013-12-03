@@ -5,4 +5,4 @@ htmlutil
 
 Some HTML utilities for Go
 
-[Go
+[GoDoc](http://godoc.org/github.com/Dancapistan/htmlutil)
