@@ -2,7 +2,7 @@ package escaper
 
 import (
 	"bytes"
-	"github.com/dancapistan/htmlutil/checker"
+	"github.com/Dancapistan/htmlutil/checker"
 	"strings"
 )
 
