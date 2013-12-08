@@ -128,8 +128,6 @@ func escapeAmbiguousAmpersandsBuffer(val string) []byte {
 	// We have at least one ambiguous ampersand to be escaped. Calculate the
 	// final width.
 	//
-	// TODO: Does len(string) return number of runes or bytes?
-
 	finalLength := len(val) - count + (count * len(htmlAmp))
 
 	// Create the bytes buffer that we'll copy the final escaped string into.
